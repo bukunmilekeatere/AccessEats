@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/canadaflag"
+                android:scaleType="fitCenter"
+                tools:ignore="ContentDescription" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="McDonald’s\n(2027 Pembina Hwy, Winnipeg, MB)"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:textAllCaps="false"
+            tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+        <ImageView
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/mcdonaldslogo"
+            tools:ignore="ContentDescription,DuplicateIds,ImageContrastCheck" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="IHOP\n(455 Sterling Lyon Pkwy, Winnipeg, MB)"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+        <ImageView
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/ihoplogo"
+            tools:ignore="ContentDescription,DuplicateIds" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="McDonald’s\n(3045 Pembina Hwy, Winnipeg, MB)"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:textAllCaps="false"
+            tools:ignore="HardcodedText,VisualLintButtonSize,TextContrastCheck" />
+
+        <ImageView
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/mcdonaldslogo"
+            tools:ignore="ContentDescription,DuplicateIds,ImageContrastCheck" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Tim Hortons\n(350 North Town Road #200, Winnipeg, MB) "
+            android:textSize="18sp"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            tools:ignore="DuplicateIds,HardcodedText,VisualLintButtonSize"/>
+
+        <ImageView
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/timhortonslogo"
+            tools:ignore="ContentDescription,DuplicateIds" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Subway\n(2750 Pembina Hwy Unit C, Winnipeg, MB)  "
+            android:textSize="18sp"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            tools:ignore="HardcodedText,VisualLintButtonSize"/>
+
+        <ImageView
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/subwaylogo"
+            tools:ignore="ContentDescription,DuplicateIds,ImageContrastCheck" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="McDonald’s\n(3920 Grant Ave, Winnipeg, MB)  "
+            android:textSize="18sp"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            tools:ignore="HardcodedText,VisualLintButtonSize"/>
+
+        <ImageView
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/mcdonaldslogo"
+            tools:ignore="ContentDescription,DuplicateIds" />
+
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Burger King\n(2829 Pembina Hwy, Winnipeg, MB)"
+            android:textSize="18sp"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            tools:ignore="HardcodedText,VisualLintButtonSize"/>
+
+        <ImageView
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/burgerkinglogo"
+            tools:ignore="ContentDescription,DuplicateIds" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Boston Pizza\n(1475 Henderson hwy, Winnipeg, MB) "
+            android:textSize="18sp"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            tools:ignore="HardcodedText,VisualLintButtonSize"/>
+
+        <ImageView
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/bostonpizzalogo"
+            tools:ignore="ContentDescription,DuplicateIds" />
+
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="St James Burger &amp; Chip Co\n(1866 Ness Ave, Winnipeg, MB)  "
+            android:textSize="18sp"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            tools:ignore="DuplicateIds,HardcodedText,VisualLintButtonSize"/>
+
+        <ImageView
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/stjamesburgerlogo"
+            tools:ignore="ContentDescription,DuplicateIds,ImageContrastCheck" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Gondola Pizza\n(4910 Roblin Blvd, Winnipeg, MB)   "
+            android:textSize="18sp"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            tools:ignore="HardcodedText,VisualLintButtonSize"/>
+
+        <ImageView
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/gondolapizzalogo"
+            tools:ignore="ContentDescription,DuplicateIds" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Red Lobster\n(1540 Portage Ave, Winnipeg, MB)  "
+            android:textSize="18sp"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            tools:ignore="HardcodedText,VisualLintButtonSize"/>
+
+        <ImageView
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/redlobsterlogo"
+            tools:ignore="ContentDescription,DuplicateIds" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Tim Hortons\n(1510 Pembina Hwy, Winnipeg, MB)   "
+            android:textSize="18sp"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            tools:ignore="HardcodedText,VisualLintButtonSize"/>
+
+        <ImageView
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/timhortonslogo"
+            tools:ignore="ContentDescription,DuplicateIds,ImageContrastCheck" />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

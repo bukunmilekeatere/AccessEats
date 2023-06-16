@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".RestaurantTwoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="256dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="IHOP\n(455 Sterling Lyon Pkwy, Winnipeg, MB)"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                tools:ignore="DisableBaselineAlignment">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_marginBottom="8dp"
+                        android:padding="5dp"
+                        android:src="@drawable/ihop1a"
+                        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_marginTop="15dp"
+                        android:padding="5dp"
+                        android:src="@drawable/ihop1b"
+                        tools:ignore="ContentDescription" />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="Our Accessibility Rating - Good"
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="@color/grey"
+                android:numStars="5"
+                android:progressTint="@color/yellow"
+                android:rating="4"
+                android:secondaryProgressTint="@color/grey"
+                android:stepSize="1"
+                tools:ignore="RtlHardcoded,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="IHOP (455 Sterling Lyon Pkwy, Winnipeg, MB) offers accessible parking spots, entrances, doors, and washrooms. It includes an online menu and great lightning, with no stairs present in or out of the building, and the indoor space is accessible. "
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,RtlHardcoded,VisualLintLongText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="IHOP (455 Sterling Lyon Pkwy, Winnipeg, MB) has high noise levels. "
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,RtlHardcoded,VisualLintLongText" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="Try These Other Alternative Accessible Locations!"
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:padding="5dp"
+                android:text="None available at the moment. Check back later."
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
